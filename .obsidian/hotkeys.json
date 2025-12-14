@@ -1,0 +1,41 @@
+{
+  "obsidian-book-search-plugin:open-book-search-modal": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "S"
+    }
+  ],
+  "obsidian-book-search-plugin:open-book-search-modal-to-insert": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "M"
+    }
+  ],
+  "obsidian-completr:completr-jump-to-next-snippet-placeholder": [],
+  "obsidian-completr:completr-bypass-tab-key": [],
+  "obsidian-completr:completr-bypass-enter-key": [],
+  "obsidian-outliner:unfold": [],
+  "window:zoom-out": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "-"
+    }
+  ],
+  "obsidian-completr:completr-open-suggestion-popup": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "ArrowDown"
+    }
+  ]
+}

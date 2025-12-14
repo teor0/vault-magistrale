@@ -1,0 +1,17 @@
+{
+  "minimal-style@@code-size": "16px",
+  "minimal-style@@code-comment@@dark": "#237002",
+  "minimal-style@@code-function@@dark": "#4CF1F4",
+  "minimal-style@@code-keyword@@dark": "#A838EC",
+  "minimal-style@@code-property@@dark": "#FF3434",
+  "minimal-style@@code-string@@dark": "#D57D00",
+  "minimal-style@@h1-color@@dark": "#D80000",
+  "minimal-style@@h2-color@@dark": "#EBCF04",
+  "minimal-style@@h3-color@@dark": "#04B802",
+  "minimal-style@@header-height": "40px",
+  "minimal-style@@tabs-style": "tabs-default",
+  "minimal-style@@code-important@@dark": "#2221F6",
+  "minimal-style@@file-header-visibility": "minimal-tab-title-hover",
+  "minimal-advanced@@font-ui-small": 12,
+  "minimal-advanced@@font-ui-smaller": 10
+}

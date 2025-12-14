@@ -1,0 +1,65 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": true,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "tag:#elettronica",
+      "color": {
+        "a": 1,
+        "rgb": 16360464
+      }
+    },
+    {
+      "query": "tag:#basi",
+      "color": {
+        "a": 1,
+        "rgb": 5431473
+      }
+    },
+    {
+      "query": "path:Linux",
+      "color": {
+        "a": 1,
+        "rgb": 5466484
+      }
+    },
+    {
+      "query": "tag:#fisica",
+      "color": {
+        "a": 1,
+        "rgb": 47104
+      }
+    },
+    {
+      "query": "path:\"Fondamenti di reti\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 5898914
+      }
+    },
+    {
+      "query": "path:\"Reti di calcolatori\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 15139844
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": false,
+  "textFadeMultiplier": 1,
+  "nodeSizeMultiplier": 1.35052083333333,
+  "lineSizeMultiplier": 3.95,
+  "collapse-forces": true,
+  "centerStrength": 0.828482328482329,
+  "repelStrength": 15.5717255717256,
+  "linkStrength": 1,
+  "linkDistance": 50,
+  "scale": 0.30227835018195115,
+  "close": true
+}

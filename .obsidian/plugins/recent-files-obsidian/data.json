@@ -1,0 +1,210 @@
+{
+  "recentFiles": [
+    {
+      "basename": "Esercitazione",
+      "path": "AMW/Esercitazione.md"
+    },
+    {
+      "basename": "Integrativo - architettura di un calcolare",
+      "path": "AMW/Integrativo - architettura di un calcolare.md"
+    },
+    {
+      "basename": "Diassemblatori",
+      "path": "AMW/Diassemblatori.md"
+    },
+    {
+      "basename": "Definizioni",
+      "path": "AMW/Definizioni.md"
+    },
+    {
+      "basename": "Diassemblatori",
+      "path": "Diassemblatori.md"
+    },
+    {
+      "basename": "Riepiloghi utili",
+      "path": "AMW/Riepiloghi utili.md"
+    },
+    {
+      "basename": "Compilazione di un file sorgente, registri e funzionamento stack",
+      "path": "AMW/Compilazione di un file sorgente, registri e funzionamento stack.md"
+    },
+    {
+      "basename": "Reverse code engineering",
+      "path": "AMW/Reverse code engineering.md"
+    },
+    {
+      "basename": "Modelli di regressione",
+      "path": "Machine Learning/Modelli di regressione.md"
+    },
+    {
+      "basename": "Definizione di machine learning, supervised learning e algoritmo nearest neighbour",
+      "path": "Machine Learning/Definizione di machine learning, supervised learning e algoritmo nearest neighbour.md"
+    },
+    {
+      "basename": "Decision trees",
+      "path": "Machine Learning/Decision trees.md"
+    },
+    {
+      "basename": "Hash map",
+      "path": "ASD/Parte 4 - Strutture dati/Hash map.md"
+    },
+    {
+      "basename": "Architettura ISO-OSI e TCP-IP e comunicazione logica",
+      "path": "Fondamenti di reti/Architettura ISO-OSI e TCP-IP e comunicazione logica.md"
+    },
+    {
+      "basename": "Protocolli di trasporto",
+      "path": "Fondamenti di reti/Protocolli di trasporto.md"
+    },
+    {
+      "basename": "Protocollo TCP",
+      "path": "Fondamenti di reti/Protocollo TCP.md"
+    },
+    {
+      "basename": "Struttura dei restanti 4 livelli del ISO-OSI",
+      "path": "Fondamenti di reti/Struttura dei restanti 4 livelli del ISO-OSI.md"
+    },
+    {
+      "basename": "Struttura dei primi 3 livelli nel ISO-OSI",
+      "path": "Fondamenti di reti/Struttura dei primi 3 livelli nel ISO-OSI.md"
+    },
+    {
+      "basename": "Criptovalute",
+      "path": "Reti di calcolatori/Criptovalute.md"
+    },
+    {
+      "basename": "Applicazioni e architettura P2P",
+      "path": "Reti di calcolatori/Applicazioni e architettura P2P.md"
+    },
+    {
+      "basename": "Cloud Computing",
+      "path": "Reti di calcolatori/Cloud Computing.md"
+    },
+    {
+      "basename": "Aspetti del protocollo DNS",
+      "path": "Reti di calcolatori/Aspetti del protocollo DNS.md"
+    },
+    {
+      "basename": "CHORD",
+      "path": "Reti di calcolatori/CHORD.md"
+    },
+    {
+      "basename": "Problema della ricerca in sistemi P2P, sistemi P2P strutturati e DHT",
+      "path": "Reti di calcolatori/Problema della ricerca in sistemi P2P, sistemi P2P strutturati e DHT.md"
+    },
+    {
+      "basename": "Dispositivi di rete",
+      "path": "Fondamenti di reti/Dispositivi di rete.md"
+    },
+    {
+      "basename": "Indirizzi MAC, protocollo ARP e DHCP",
+      "path": "Fondamenti di reti/Indirizzi MAC, protocollo ARP e DHCP.md"
+    },
+    {
+      "basename": "Sistema di comunicazione digitale",
+      "path": "Fondamenti di reti/Sistema di comunicazione digitale.md"
+    },
+    {
+      "basename": "Comunicazione e protocolli di comunicazione",
+      "path": "Fondamenti di reti/Comunicazione e protocolli di comunicazione.md"
+    },
+    {
+      "basename": "Git",
+      "path": "Git.md"
+    },
+    {
+      "basename": "Geometria dei PL",
+      "path": "Ricerca operativa/Geometria dei PL.md"
+    },
+    {
+      "basename": "Prime definizioni",
+      "path": "Ricerca operativa/Prime definizioni.md"
+    },
+    {
+      "basename": "Flash auto",
+      "path": "Flash auto.md"
+    },
+    {
+      "basename": "Relazione progetto automatica",
+      "path": "Relazione progetto automatica.md"
+    },
+    {
+      "basename": "Relazione",
+      "path": "Relazione.md"
+    },
+    {
+      "basename": "Esercizio C",
+      "path": "Esercizio C.md"
+    },
+    {
+      "basename": "Appunti",
+      "path": "Automatica/Appunti.md"
+    },
+    {
+      "basename": "Sinusoidi e fasori",
+      "path": "Elettrotecnica/Sinusoidi e fasori.md"
+    },
+    {
+      "basename": "Formulario",
+      "path": "Fisica II/Formulario.md"
+    },
+    {
+      "basename": "Topologia dei circuiti",
+      "path": "Elettrotecnica/Topologia dei circuiti.md"
+    },
+    {
+      "basename": "Metodi di analisi",
+      "path": "Elettrotecnica/Metodi di analisi.md"
+    },
+    {
+      "basename": "Incongruenze mezzi ideali, generatori reali, corrente e potenza massima e rendimento",
+      "path": "Elettrotecnica/Incongruenze mezzi ideali, generatori reali, corrente e potenza massima e rendimento.md"
+    },
+    {
+      "basename": "Concetti fisici d'interesse, modello circuitale, corrente, potenza ed energia",
+      "path": "Elettrotecnica/Concetti fisici d'interesse, modello circuitale, corrente, potenza ed energia.md"
+    },
+    {
+      "basename": "Convenzioni d'uso, componenti, corto circuito e circuito aperto",
+      "path": "Elettrotecnica/Convenzioni d'uso, componenti, corto circuito e circuito aperto.md"
+    },
+    {
+      "basename": "Teorema di Norton, Thevenin e Millman",
+      "path": "Elettrotecnica/Teorema di Norton, Thevenin e Millman.md"
+    },
+    {
+      "basename": "Lezione 1",
+      "path": "Automatica/Lezione 1.md"
+    },
+    {
+      "basename": "Flashcards",
+      "path": "Fisica II/Flashcards.md"
+    },
+    {
+      "basename": "Induzione e forza magnetica, legge di Biot-Savart e legge di Ampere",
+      "path": "Fisica II/Induzione e forza magnetica, legge di Biot-Savart e legge di Ampere.md"
+    },
+    {
+      "basename": "Legge di Kirchhoff, dipolo elettrico, corrente, legge di Ohm",
+      "path": "Fisica II/Legge di Kirchhoff, dipolo elettrico, corrente, legge di Ohm.md"
+    },
+    {
+      "basename": "Caratteristiche elettromagnetiche, densità di carica, forza e campo elettrico",
+      "path": "Fisica II/Caratteristiche elettromagnetiche, densità di carica, forza e campo elettrico.md"
+    },
+    {
+      "basename": "Equazioni di Maxwell, teorema di Gauss, della divergenza e di Stokes",
+      "path": "Fisica II/Equazioni di Maxwell, teorema di Gauss, della divergenza e di Stokes.md"
+    },
+    {
+      "basename": "Resistenza, potenza dissipata, legge di Joule, condensatore e energia potenziale elettrostatica",
+      "path": "Fisica II/Resistenza, potenza dissipata, legge di Joule, condensatore e energia potenziale elettrostatica.md"
+    }
+  ],
+  "omittedPaths": [],
+  "omittedTags": [],
+  "updateOn": "file-open",
+  "omitBookmarks": false,
+  "maxLength": null,
+  "openType": "tab"
+}

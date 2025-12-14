@@ -1,0 +1,16 @@
+{
+  "baseFontSize": 16,
+  "enabledCssSnippets": [
+    "bigger_link_popup",
+    "img_cards",
+    "image_over",
+    "CustomCallout"
+  ],
+  "cssTheme": "Minimal",
+  "translucency": false,
+  "theme": "obsidian",
+  "accentColor": "#052ed1",
+  "interfaceFontFamily": "DejaVu Sans",
+  "textFontFamily": "Times New Roman",
+  "monospaceFontFamily": "Source Code Pro"
+}

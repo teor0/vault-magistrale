@@ -1,0 +1,10 @@
+{
+  "enableDrawingAnnotation": false,
+  "enableVisualizer": false,
+  "visualizerColor": "#00ff00",
+  "visualizerHeight": "50px",
+  "compressionQuality": 1,
+  "enableCompression": true,
+  "enableCompareMode": true,
+  "drawings": {}
+}

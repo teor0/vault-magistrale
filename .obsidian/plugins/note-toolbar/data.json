@@ -1,0 +1,35 @@
+{
+  "debugEnabled": false,
+  "emptyViewToolbar": null,
+  "export": {
+    "includeIcons": true,
+    "replaceVars": true,
+    "useDataEls": true,
+    "useIds": true
+  },
+  "folderMappings": [],
+  "icon": "circle-ellipsis",
+  "keepPropsState": false,
+  "lockCallouts": false,
+  "onboarding": {},
+  "ribbonAction": "toolbar",
+  "rules": [],
+  "scriptingEnabled": false,
+  "showEditInFabMenu": false,
+  "showLaunchpad": false,
+  "showToolbarIn": {
+    "audio": false,
+    "bases": false,
+    "canvas": false,
+    "image": false,
+    "kanban": false,
+    "pdf": false,
+    "video": false
+  },
+  "showToolbarInFileMenu": false,
+  "showToolbarInOther": "",
+  "toolbarProp": "notetoolbar",
+  "toolbars": [],
+  "version": 20250313.1,
+  "whatsnew_version": "1.25"
+}

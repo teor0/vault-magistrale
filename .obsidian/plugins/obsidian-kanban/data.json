@@ -1,0 +1,8 @@
+{
+  "date-format": "DD-MM-YYYY",
+  "time-format": "HH:mm",
+  "date-display-format": "DD-MM-YYYY",
+  "show-relative-date": true,
+  "archive-with-date": true,
+  "archive-date-format": "DD-MM-YYYY"
+}

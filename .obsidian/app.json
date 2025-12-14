@@ -1,0 +1,21 @@
+{
+  "foldHeading": true,
+  "foldIndent": true,
+  "communityPluginSortOrder": "download",
+  "legacyEditor": false,
+  "tabSize": 5,
+  "vimMode": false,
+  "showLineNumber": false,
+  "livePreview": false,
+  "alwaysUpdateLinks": true,
+  "fileSortOrder": "alphabetical",
+  "pdfExportSettings": {
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 70
+  },
+  "attachmentFolderPath": "Pictures",
+  "showInlineTitle": true,
+  "promptDelete": false
+}
