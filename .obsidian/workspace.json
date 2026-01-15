@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "e2ec39c0d79ff482",
+        "id": "d14548741d8b7e52",
         "type": "tabs",
         "children": [
           {
-            "id": "4800e8e79ee6a5b8",
+            "id": "f5a5e224a19bccab",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Machine Learning/Regressione logistica, cross-entropy, SGD e softmax.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Regressione logistica, cross-entropy, SGD e softmax"
             }
           }
         ]
@@ -53,8 +57,8 @@
             "state": {
               "type": "recent-files",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "recent-files"
+              "icon": "clock",
+              "title": "Recent Files"
             }
           },
           {
@@ -80,12 +84,12 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 349
+    "width": 349,
+    "collapsed": true
   },
   "right": {
     "id": "c8cc14d5d19f74ca",
@@ -184,8 +188,8 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "review-queue-list-view"
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
             }
           },
           {
@@ -211,7 +215,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -231,32 +235,39 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false,
       "obsidian-spaced-repetition:Review flashcards": false,
       "obsidian-kanban:Create new board": false,
-      "omnisearch:Omnisearch": false
+      "omnisearch:Omnisearch": false,
+      "iconic:Open rulebook": false
     }
   },
-  "active": "4800e8e79ee6a5b8",
+  "active": "f5a5e224a19bccab",
   "lastOpenFiles": [
+    "Machine Learning/Ensembling, errori e bagging.md",
+    "Machine Learning/Modelli di regressione.md",
+    "Machine Learning/Regressione logistica, cross-entropy, SGD e softmax.md",
+    "AMW/Analisi statica e dinamica e strumenti.md",
+    "AMW/Snapshot QEMU.md",
+    "AMW/Compilazione di un file sorgente, registri e funzionamento stack.md",
+    "AMW/Reverse code engineering.md",
+    "AMW/Componenti calcolatore e indirizzi.md",
+    "www.virustotal.com.md",
     "AMW/Esercitazione.md",
+    "AMW/Disassemblatori.md",
+    "Machine Learning/Random forests.md",
+    "Machine Learning/pics/bootstrap.png",
+    "Machine Learning/pics/tradeoff.png",
+    "Machine Learning/pics/decomp_final.png",
+    "Machine Learning/pics/decomposiont_3.png",
+    "Machine Learning/pics/decomposiont_2.png",
+    "Machine Learning/pics/decomposiont.png",
+    "Machine Learning/pics/tschoicereg.png",
+    "Machine Learning/pics/tschoice.png",
+    "Machine Learning/pics/intuition.png",
+    "Machine Learning/Definizione di machine learning, supervised learning e algoritmo nearest neighbour.md",
+    "Machine Learning/pics/winmain.png",
+    "Machine Learning/Decision trees.md",
     "AMW/Integrativo - architettura di un calcolare.md",
-    "AMW/Diassemblatori.md",
     "AMW/Definizioni.md",
     "Diassemblatori.md",
-    "AMW/Riepiloghi utili.md",
-    "AMW/Compilazione di un file sorgente, registri e funzionamento stack.md",
-    "AMW/immagini/c_data_type.png",
-    "AMW/immagini/es3_code.png",
-    "AMW/immagini/es2_code64.png",
-    "AMW/immagini/es2_code.png",
-    "AMW/immagini/es1_intel.png",
-    "AMW/immagini/es1_inetl.png",
-    "AMW/immagini/es1_code64.png",
-    "AMW/immagini/es1_code.png",
-    "AMW/immagini/jumps.png",
-    "AMW/immagini/ebpesp.png",
-    "AMW/Reverse code engineering.md",
-    "Machine Learning/Modelli di regressione.md",
-    "Machine Learning/Definizione di machine learning, supervised learning e algoritmo nearest neighbour.md",
-    "Machine Learning/Decision trees.md",
     "AMW/immagini",
     "Untitled",
     "Distributed Systems/Definizione e concetti chiave.md",
@@ -274,12 +285,6 @@
     "Machine Learning",
     "Reti di calcolatori/Criptovalute.md",
     "Reti di calcolatori/Applicazioni e architettura P2P.md",
-    "Reti di calcolatori/Cloud Computing.md",
-    "Reti di calcolatori/Aspetti del protocollo DNS.md",
-    "Reti di calcolatori/CHORD.md",
-    "Reti di calcolatori/Problema della ricerca in sistemi P2P, sistemi P2P strutturati e DHT.md",
-    "Fondamenti di reti/Dispositivi di rete.md",
-    "Fondamenti di reti/Indirizzi MAC, protocollo ARP e DHCP.md",
     "ropics",
     "Nuova cartella",
     "Ricerca operativa"

@@ -1,28 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "Esercitazione",
-      "path": "AMW/Esercitazione.md"
+      "basename": "Regressione logistica, cross-entropy, SGD e softmax",
+      "path": "Machine Learning/Regressione logistica, cross-entropy, SGD e softmax.md"
     },
     {
-      "basename": "Integrativo - architettura di un calcolare",
-      "path": "AMW/Integrativo - architettura di un calcolare.md"
+      "basename": "Ensembling, errori e bagging",
+      "path": "Machine Learning/Ensembling, errori e bagging.md"
     },
     {
-      "basename": "Diassemblatori",
-      "path": "AMW/Diassemblatori.md"
+      "basename": "Modelli di regressione",
+      "path": "Machine Learning/Modelli di regressione.md"
     },
     {
-      "basename": "Definizioni",
-      "path": "AMW/Definizioni.md"
+      "basename": "Analisi statica e dinamica e strumenti",
+      "path": "AMW/Analisi statica e dinamica e strumenti.md"
     },
     {
-      "basename": "Diassemblatori",
-      "path": "Diassemblatori.md"
-    },
-    {
-      "basename": "Riepiloghi utili",
-      "path": "AMW/Riepiloghi utili.md"
+      "basename": "Snapshot QEMU",
+      "path": "AMW/Snapshot QEMU.md"
     },
     {
       "basename": "Compilazione di un file sorgente, registri e funzionamento stack",
@@ -33,8 +29,20 @@
       "path": "AMW/Reverse code engineering.md"
     },
     {
-      "basename": "Modelli di regressione",
-      "path": "Machine Learning/Modelli di regressione.md"
+      "basename": "Componenti calcolatore e indirizzi",
+      "path": "AMW/Componenti calcolatore e indirizzi.md"
+    },
+    {
+      "basename": "Esercitazione",
+      "path": "AMW/Esercitazione.md"
+    },
+    {
+      "basename": "Disassemblatori",
+      "path": "AMW/Disassemblatori.md"
+    },
+    {
+      "basename": "Random forests",
+      "path": "Machine Learning/Random forests.md"
     },
     {
       "basename": "Definizione di machine learning, supervised learning e algoritmo nearest neighbour",
@@ -43,6 +51,18 @@
     {
       "basename": "Decision trees",
       "path": "Machine Learning/Decision trees.md"
+    },
+    {
+      "basename": "Integrativo - architettura di un calcolare",
+      "path": "AMW/Integrativo - architettura di un calcolare.md"
+    },
+    {
+      "basename": "Definizioni",
+      "path": "AMW/Definizioni.md"
+    },
+    {
+      "basename": "Diassemblatori",
+      "path": "Diassemblatori.md"
     },
     {
       "basename": "Hash map",
@@ -179,26 +199,6 @@
     {
       "basename": "Flashcards",
       "path": "Fisica II/Flashcards.md"
-    },
-    {
-      "basename": "Induzione e forza magnetica, legge di Biot-Savart e legge di Ampere",
-      "path": "Fisica II/Induzione e forza magnetica, legge di Biot-Savart e legge di Ampere.md"
-    },
-    {
-      "basename": "Legge di Kirchhoff, dipolo elettrico, corrente, legge di Ohm",
-      "path": "Fisica II/Legge di Kirchhoff, dipolo elettrico, corrente, legge di Ohm.md"
-    },
-    {
-      "basename": "Caratteristiche elettromagnetiche, densità di carica, forza e campo elettrico",
-      "path": "Fisica II/Caratteristiche elettromagnetiche, densità di carica, forza e campo elettrico.md"
-    },
-    {
-      "basename": "Equazioni di Maxwell, teorema di Gauss, della divergenza e di Stokes",
-      "path": "Fisica II/Equazioni di Maxwell, teorema di Gauss, della divergenza e di Stokes.md"
-    },
-    {
-      "basename": "Resistenza, potenza dissipata, legge di Joule, condensatore e energia potenziale elettrostatica",
-      "path": "Fisica II/Resistenza, potenza dissipata, legge di Joule, condensatore e energia potenziale elettrostatica.md"
     }
   ],
   "omittedPaths": [],

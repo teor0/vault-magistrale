@@ -31,3 +31,4 @@ worlds
 WORKDIR
 dword
 DWORD
+UNICODE

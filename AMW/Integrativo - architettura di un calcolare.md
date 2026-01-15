@@ -1,5 +1,5 @@
 #amw #magistrale 
-[[Riepiloghi utili]]
+[[Componenti calcolatore e indirizzi]]
 # Livelli di astrazione in un calcolatore
 Le architetture tradizionali dei computer possono essere viste come la composizione di vari strati o livelli di astrazione che nascondo i dettagli implementativi. Ad esempio su hardware eterogeneo posso decidere di eseguire Linux, Windows o BSD in quanto l'hardware sottostante viene astratto dal sistema operativo. Gli autori di malware scrivono programmi con linguaggi di alto livello per poi utilizzare i compilatori per generare codice macchina che viene eseguito dalla CPU. Gli analisti la contrario utilizzano un disassemblatore per generare codice assembly da analizzare per ricostruire il funzionamento dell'eseguibile. In generale questo modello semplice ha origine da una struttura a sei livelli di astrazione. Definiamo questa struttura a partire dal livello più basso:
 - Hardware: è l'unico livello fisico e consiste nei circuiti elettrici che implementano le complesse combinazioni di più operatori logici come XOR, AND, OR e NOT.

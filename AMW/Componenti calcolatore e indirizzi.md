@@ -13,11 +13,12 @@ Tra i vari componenti del sistema operativo, come il kernel (la parte in cui si 
 > [!important] Definizione programma
 > Il programma è un insieme di istruzioni con un formato specifico a seconda se mantenuto sul disco rigido o sulla RAM
 
-# Riepilogo notazione esadecimale, little endian e big endian
+## Riepilogo notazione esadecimale, little endian e big endian
 È la notazione che esprime da 0 a 15 utilizzando da 0 a 9 e poi a,b,c,d,e,f per 11,12,13,14,15. In C per indicare l'uso della notazione esadecimale si utilizza il prefisso 0x. Ad esempio 0x1001 dove si calcola il valore come visto più volte. La notazione è utilizzata in assembly data la corrispondenza tra esadecimale e bit. La notazione ottale è ancora usata in qualche ambito ad esempio i permessi in Linux. Ricordiamo che il valore del dato non cambia, ma solo la notazione con cui si esprime. 
 
 Little endian e big endian ovvero l'ordine dei byte, nel primo caso si legge la sequenza dal byte meno significativo al più significativo (da destra verso sinistra), mentre nell'altro al contrario (da sinistra verso destra). L'architettura Intel è little endian mentre l'architettura ARM non è nessuno dei due ma cambia a seconda di un bit fisico tra i due ordini. Ricordiamo anche i byte in memoria hanno un indirizzo.
 
+---
 # Riepilogo indirizzi 
 L’indirizzo fisico identifica una posizione fisica in una memoria. 
 L’indirizzo generato dalla CPU mentre un programma è in esecuzione è denominato indirizzo logico. Esso è gestito dal MMU (memory management unit) che comprende l'unità di segmentazione che trasforma l'indirizzo logico in indirizzo lineare, che entrerà nell'unità di paginazione per diventare un indirizzo fisico. Oggigiorno i sistemi operativi non usano più la segmentation unit. L'indirizzo virtuale è il termine usato per i sistemi operativi moderni per l'indirizzo lineare. L'indirizzo logico è composto da due parti. Un segmentation description (o base) e un offset. La segmentation unit si occupa semplicemente di sommare la base al offset per ottenere l'indirizzo lineare. Negli OS moderni la base è pari a 0 e limite pari a $2^{32}$ per sistemi a 32 bit, mentre ci si limita a $2^{48}$ per sistemi a 64bit. Quindi anche se l'hardware fa la somma tra 0 ed un numero, nel sistema operativo l'offset è sostanzialmente l'indirizzo lineare. Tuttavia restano ancora area di memoria con segmenti che non hanno base 0 come il TLS (Thread Local Storage) che tratteremo.
@@ -35,7 +36,10 @@ l'heap e le librerie dinamiche che stanno a ridosso della zona kernel mode. ![[l
 | costanti              | rodata                                        |
 | dati inizializzati    | bss                                           |
 
-La differenza tra dati inizializzati e dati è dato dal fatto che spesso i dati sono inizializzati pari a 0. Linux non permette di carica un eseguibile in un punto diverso dello spazio lineare, per due motivi, il primo perché è un processo lento ed oneroso, il secondo perché è inutile. Windows permette di farlo.
+La differenza tra dati inizializzati e dati è dato dal fatto che spesso i dati sono inizializzati pari a 0. Linux non permette di carica un eseguibile in un punto diverso dello spazio lineare, per due motivi, il primo perché è un processo lento ed oneroso, il secondo perché è inutile. Windows permette di farlo. 
+Windows carica ogni programma in un posizione predefinita in cui il programma è compilato per funzionare, poi il sistema operativo può rilocare il programma mentre in Linux questo non è possibile. Inoltre la rilocazione oltre al costo di esecuzione dato dalla rilocazione, ha un costo per la memoria occupata dato che la memoria non potrà essere condivisa.
+
+---
 
 # Rappresentazione dei tipi
 In C una semplice `int c; sizeof(c)` dipende da 3 cose: l'architettura del calcolatore, il sistema operativo e dal compilatore utilizzato. Non è quindi fissa la lunghezza. Per evitare ambiguità si devono utilizzare tipi di dati espliciti. Per Linux contenuti in stdxxx.h con xxx il tipo di dato. Mentre in Windows si usano: byte, word, dword e qword. Rispettivamente 8, 16, 32 e 64 bit.
@@ -43,6 +47,7 @@ Per le stringhe si usano varie codifiche: ascii, ascii-z o UNICODE.
 Per i vettori in C la convenzione è partire da 0 fino a N-1. Ma quanto è grande un puntatore a livello di byte non è esplicitato. Ricordiamo anche che *v* in `int v[16];` è l'etichetta che si da al vettore. Per quanto riguarda un puntatore invece, `int *p`, la memoria allocata dipende solamente dall'architettura, 4 byte per 32 bit e 8 byte per 64 bit. In questo caso *p* è associato alla sequenza di celle che contengono il puntatore. Il puntatore è un indirizzo lineare che punta ad un valore. Vettori e puntatori sono identici sintatticamente ma non semanticamente. Valgono infatti `p[3]`$\equiv$ `*(p+3)` ovviamente la memoria allocata al puntatore non è detto che sia totalmente occupata, infatti sorgono i noti problemi di memoria. Di seguito la tabella dei data types in C con la loro dimensione in byte:
 ![[c_data_type.png]]
 
+---
 
 
 
