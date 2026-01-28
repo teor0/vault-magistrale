@@ -28,7 +28,15 @@
   },
   "appIcons": {},
   "tabIcons": {},
-  "fileIcons": {},
+  "fileIcons": {
+    "DS": {
+      "icon": "lucide-folder",
+      "color": "green",
+      "unsynced": [
+        "21855c330441e0c1"
+      ]
+    }
+  },
   "bookmarkIcons": {},
   "tagIcons": {},
   "propertyIcons": {},

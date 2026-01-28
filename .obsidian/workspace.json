@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/Regressione logistica, cross-entropy, SGD e softmax.md",
-                "mode": "preview",
+                "file": "Machine Learning/Boosting.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Regressione logistica, cross-entropy, SGD e softmax"
+              "title": "Boosting"
             }
           }
         ]
@@ -84,12 +84,12 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 349,
-    "collapsed": true
+    "width": 349
   },
   "right": {
     "id": "c8cc14d5d19f74ca",
@@ -241,9 +241,23 @@
   },
   "active": "f5a5e224a19bccab",
   "lastOpenFiles": [
-    "Machine Learning/Ensembling, errori e bagging.md",
+    "Machine Learning/pics/grad_boost_alg.png",
+    "Machine Learning/pics/grad_boost.png",
+    "Machine Learning/pics/adaboost.png",
+    "Machine Learning/pics/boosting4.png",
+    "Machine Learning/pics/boosting3.png",
+    "Machine Learning/pics/boosting.png",
+    "Machine Learning/pics/boosting2.png",
     "Machine Learning/Modelli di regressione.md",
+    "Machine Learning/Ensembling, errori e bagging.md",
+    "Machine Learning/Boosting.md",
+    "Machine Learning/pics/boosting1.png",
+    "DS/Paxos e Raft.md",
+    "DS/Semantiche comunicazione e Kafka.md",
+    "DS/Query flooding, random walk e gossiping.md",
+    "DS/DHT, CHORD e Kademlia.md",
     "Machine Learning/Regressione logistica, cross-entropy, SGD e softmax.md",
+    "DS",
     "AMW/Analisi statica e dinamica e strumenti.md",
     "AMW/Snapshot QEMU.md",
     "AMW/Compilazione di un file sorgente, registri e funzionamento stack.md",
@@ -256,35 +270,21 @@
     "Machine Learning/pics/bootstrap.png",
     "Machine Learning/pics/tradeoff.png",
     "Machine Learning/pics/decomp_final.png",
-    "Machine Learning/pics/decomposiont_3.png",
-    "Machine Learning/pics/decomposiont_2.png",
-    "Machine Learning/pics/decomposiont.png",
-    "Machine Learning/pics/tschoicereg.png",
-    "Machine Learning/pics/tschoice.png",
-    "Machine Learning/pics/intuition.png",
     "Machine Learning/Definizione di machine learning, supervised learning e algoritmo nearest neighbour.md",
-    "Machine Learning/pics/winmain.png",
     "Machine Learning/Decision trees.md",
     "AMW/Integrativo - architettura di un calcolare.md",
     "AMW/Definizioni.md",
     "Diassemblatori.md",
     "AMW/immagini",
-    "Untitled",
     "Distributed Systems/Definizione e concetti chiave.md",
     "AMW",
     "Untitled.canvas",
     "ASD/Parte 4 - Strutture dati/Hash map.md",
     "Fondamenti di reti/Architettura ISO-OSI e TCP-IP e comunicazione logica.md",
-    "Fondamenti di reti/Protocolli di trasporto.md",
-    "Fondamenti di reti/Protocollo TCP.md",
-    "Fondamenti di reti/Struttura dei restanti 4 livelli del ISO-OSI.md",
-    "Fondamenti di reti/Struttura dei primi 3 livelli nel ISO-OSI.md",
     "Distributed Systems",
     "Machine Learning/pics",
     "Machine Learning/Nuova cartella",
     "Machine Learning",
-    "Reti di calcolatori/Criptovalute.md",
-    "Reti di calcolatori/Applicazioni e architettura P2P.md",
     "ropics",
     "Nuova cartella",
     "Ricerca operativa"

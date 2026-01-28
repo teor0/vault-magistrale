@@ -1,16 +1,36 @@
 {
   "recentFiles": [
     {
-      "basename": "Regressione logistica, cross-entropy, SGD e softmax",
-      "path": "Machine Learning/Regressione logistica, cross-entropy, SGD e softmax.md"
+      "basename": "Boosting",
+      "path": "Machine Learning/Boosting.md"
+    },
+    {
+      "basename": "Modelli di regressione",
+      "path": "Machine Learning/Modelli di regressione.md"
     },
     {
       "basename": "Ensembling, errori e bagging",
       "path": "Machine Learning/Ensembling, errori e bagging.md"
     },
     {
-      "basename": "Modelli di regressione",
-      "path": "Machine Learning/Modelli di regressione.md"
+      "basename": "Paxos e Raft",
+      "path": "DS/Paxos e Raft.md"
+    },
+    {
+      "basename": "Semantiche comunicazione e Kafka",
+      "path": "DS/Semantiche comunicazione e Kafka.md"
+    },
+    {
+      "basename": "Query flooding, random walk e gossiping",
+      "path": "DS/Query flooding, random walk e gossiping.md"
+    },
+    {
+      "basename": "DHT, CHORD e Kademlia",
+      "path": "DS/DHT, CHORD e Kademlia.md"
+    },
+    {
+      "basename": "Regressione logistica, cross-entropy, SGD e softmax",
+      "path": "Machine Learning/Regressione logistica, cross-entropy, SGD e softmax.md"
     },
     {
       "basename": "Analisi statica e dinamica e strumenti",
@@ -179,26 +199,6 @@
     {
       "basename": "Incongruenze mezzi ideali, generatori reali, corrente e potenza massima e rendimento",
       "path": "Elettrotecnica/Incongruenze mezzi ideali, generatori reali, corrente e potenza massima e rendimento.md"
-    },
-    {
-      "basename": "Concetti fisici d'interesse, modello circuitale, corrente, potenza ed energia",
-      "path": "Elettrotecnica/Concetti fisici d'interesse, modello circuitale, corrente, potenza ed energia.md"
-    },
-    {
-      "basename": "Convenzioni d'uso, componenti, corto circuito e circuito aperto",
-      "path": "Elettrotecnica/Convenzioni d'uso, componenti, corto circuito e circuito aperto.md"
-    },
-    {
-      "basename": "Teorema di Norton, Thevenin e Millman",
-      "path": "Elettrotecnica/Teorema di Norton, Thevenin e Millman.md"
-    },
-    {
-      "basename": "Lezione 1",
-      "path": "Automatica/Lezione 1.md"
-    },
-    {
-      "basename": "Flashcards",
-      "path": "Fisica II/Flashcards.md"
     }
   ],
   "omittedPaths": [],
