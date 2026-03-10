@@ -1,40 +1,92 @@
 {
   "recentFiles": [
     {
-      "basename": "Boosting",
-      "path": "Machine Learning/Boosting.md"
+      "basename": "Lezione 3 - object oriented metrics e function points",
+      "path": "ISW2/Lezione 3 - object oriented metrics e function points.md"
     },
     {
-      "basename": "Modelli di regressione",
-      "path": "Machine Learning/Modelli di regressione.md"
+      "basename": "Introduzione ai modelli analitici",
+      "path": "PMCSN/Introduzione ai modelli analitici.md"
     },
     {
-      "basename": "Ensembling, errori e bagging",
-      "path": "Machine Learning/Ensembling, errori e bagging.md"
+      "basename": "Teoria delle code",
+      "path": "PMCSN/Teoria delle code.md"
     },
     {
-      "basename": "Paxos e Raft",
-      "path": "DS/Paxos e Raft.md"
+      "basename": "Ricapitolazioni utili di statistica e sistemi di code",
+      "path": "PMCSN/Ricapitolazioni utili di statistica e sistemi di code.md"
     },
     {
-      "basename": "Semantiche comunicazione e Kafka",
-      "path": "DS/Semantiche comunicazione e Kafka.md"
+      "basename": "Introduzione alla performance evaluation ed ai modelli",
+      "path": "PMCSN/Introduzione alla performance evaluation ed ai modelli.md"
     },
     {
-      "basename": "Query flooding, random walk e gossiping",
-      "path": "DS/Query flooding, random walk e gossiping.md"
+      "basename": "Lezione 2 - bontà delle metriche e scale",
+      "path": "ISW2/Lezione 2 - bontà delle metriche e scale.md"
     },
     {
-      "basename": "DHT, CHORD e Kademlia",
-      "path": "DS/DHT, CHORD e Kademlia.md"
+      "basename": "Lezione 1 - Concetto di misura, metriche e misurazione",
+      "path": "ISW2/Lezione 1 - Concetto di misura, metriche e misurazione.md"
     },
     {
-      "basename": "Regressione logistica, cross-entropy, SGD e softmax",
-      "path": "Machine Learning/Regressione logistica, cross-entropy, SGD e softmax.md"
+      "basename": "Lezione 1 - testing",
+      "path": "ISW2/Lezione 1 - testing.md"
+    },
+    {
+      "basename": "Definizioni",
+      "path": "AMW/Definizioni.md"
+    },
+    {
+      "basename": "Integrativo - architettura di un calcolare",
+      "path": "AMW/Integrativo - architettura di un calcolare.md"
+    },
+    {
+      "basename": "VM Windows su QEMU",
+      "path": "AMW/VM Windows su QEMU.md"
+    },
+    {
+      "basename": "8. PCA",
+      "path": "Machine Learning/8. PCA.md"
     },
     {
       "basename": "Analisi statica e dinamica e strumenti",
       "path": "AMW/Analisi statica e dinamica e strumenti.md"
+    },
+    {
+      "basename": "5. Ensembling, errori, bagging e random forests",
+      "path": "Machine Learning/5. Ensembling, errori, bagging e random forests.md"
+    },
+    {
+      "basename": "6. Boosting",
+      "path": "Machine Learning/6. Boosting.md"
+    },
+    {
+      "basename": "9. Naive Bayes Classifiers",
+      "path": "Machine Learning/9. Naive Bayes Classifiers.md"
+    },
+    {
+      "basename": "3. Regressione logistica, cross-entropy, SGD e softmax",
+      "path": "Machine Learning/3. Regressione logistica, cross-entropy, SGD e softmax.md"
+    },
+    {
+      "basename": "2. Modelli di regressione",
+      "path": "Machine Learning/2. Modelli di regressione.md"
+    },
+    {
+      "basename": "7. Clustering",
+      "path": "Machine Learning/7. Clustering.md"
+    },
+    {
+      "basename": "4. Decision trees",
+      "path": "Machine Learning/4. Decision trees.md"
+    },
+    {
+      "basename": "1. Definizione di machine learning, supervised learning e algoritmo nearest neighbour",
+      "path": "Machine Learning/1. Definizione di machine learning, supervised learning e algoritmo nearest neighbour.md"
+    },
+    {
+      "basename": "Risoluzione W03.exe",
+      "path": "AMW/Risoluzione W03.exe.md"
     },
     {
       "basename": "Snapshot QEMU",
@@ -59,26 +111,6 @@
     {
       "basename": "Disassemblatori",
       "path": "AMW/Disassemblatori.md"
-    },
-    {
-      "basename": "Random forests",
-      "path": "Machine Learning/Random forests.md"
-    },
-    {
-      "basename": "Definizione di machine learning, supervised learning e algoritmo nearest neighbour",
-      "path": "Machine Learning/Definizione di machine learning, supervised learning e algoritmo nearest neighbour.md"
-    },
-    {
-      "basename": "Decision trees",
-      "path": "Machine Learning/Decision trees.md"
-    },
-    {
-      "basename": "Integrativo - architettura di un calcolare",
-      "path": "AMW/Integrativo - architettura di un calcolare.md"
-    },
-    {
-      "basename": "Definizioni",
-      "path": "AMW/Definizioni.md"
     },
     {
       "basename": "Diassemblatori",
@@ -123,82 +155,6 @@
     {
       "basename": "Aspetti del protocollo DNS",
       "path": "Reti di calcolatori/Aspetti del protocollo DNS.md"
-    },
-    {
-      "basename": "CHORD",
-      "path": "Reti di calcolatori/CHORD.md"
-    },
-    {
-      "basename": "Problema della ricerca in sistemi P2P, sistemi P2P strutturati e DHT",
-      "path": "Reti di calcolatori/Problema della ricerca in sistemi P2P, sistemi P2P strutturati e DHT.md"
-    },
-    {
-      "basename": "Dispositivi di rete",
-      "path": "Fondamenti di reti/Dispositivi di rete.md"
-    },
-    {
-      "basename": "Indirizzi MAC, protocollo ARP e DHCP",
-      "path": "Fondamenti di reti/Indirizzi MAC, protocollo ARP e DHCP.md"
-    },
-    {
-      "basename": "Sistema di comunicazione digitale",
-      "path": "Fondamenti di reti/Sistema di comunicazione digitale.md"
-    },
-    {
-      "basename": "Comunicazione e protocolli di comunicazione",
-      "path": "Fondamenti di reti/Comunicazione e protocolli di comunicazione.md"
-    },
-    {
-      "basename": "Git",
-      "path": "Git.md"
-    },
-    {
-      "basename": "Geometria dei PL",
-      "path": "Ricerca operativa/Geometria dei PL.md"
-    },
-    {
-      "basename": "Prime definizioni",
-      "path": "Ricerca operativa/Prime definizioni.md"
-    },
-    {
-      "basename": "Flash auto",
-      "path": "Flash auto.md"
-    },
-    {
-      "basename": "Relazione progetto automatica",
-      "path": "Relazione progetto automatica.md"
-    },
-    {
-      "basename": "Relazione",
-      "path": "Relazione.md"
-    },
-    {
-      "basename": "Esercizio C",
-      "path": "Esercizio C.md"
-    },
-    {
-      "basename": "Appunti",
-      "path": "Automatica/Appunti.md"
-    },
-    {
-      "basename": "Sinusoidi e fasori",
-      "path": "Elettrotecnica/Sinusoidi e fasori.md"
-    },
-    {
-      "basename": "Formulario",
-      "path": "Fisica II/Formulario.md"
-    },
-    {
-      "basename": "Topologia dei circuiti",
-      "path": "Elettrotecnica/Topologia dei circuiti.md"
-    },
-    {
-      "basename": "Metodi di analisi",
-      "path": "Elettrotecnica/Metodi di analisi.md"
-    },
-    {
-      "basename": "Incongruenze mezzi ideali, generatori reali, corrente e potenza massima e rendimento",
-      "path": "Elettrotecnica/Incongruenze mezzi ideali, generatori reali, corrente e potenza massima e rendimento.md"
     }
   ],
   "omittedPaths": [],

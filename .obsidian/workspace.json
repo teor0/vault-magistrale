@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "d14548741d8b7e52",
+        "id": "99d794b957a137f7",
         "type": "tabs",
         "children": [
           {
-            "id": "f5a5e224a19bccab",
+            "id": "7e06ae23cebdb37d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/Boosting.md",
+                "file": "ISW2/Lezione 3 - object oriented metrics e function points.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Boosting"
+              "title": "Lezione 3 - object oriented metrics e function points"
             }
           }
         ]
@@ -52,16 +52,6 @@
             }
           },
           {
-            "id": "02a2340b76754360",
-            "type": "leaf",
-            "state": {
-              "type": "recent-files",
-              "state": {},
-              "icon": "clock",
-              "title": "Recent Files"
-            }
-          },
-          {
             "id": "e59231966c1fdb9c",
             "type": "leaf",
             "state": {
@@ -85,7 +75,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -183,16 +173,6 @@
             }
           },
           {
-            "id": "120dd638052eafb4",
-            "type": "leaf",
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {},
-              "icon": "SpacedRepIcon",
-              "title": "Notes Review Queue"
-            }
-          },
-          {
             "id": "2c40fbcccc72fba0",
             "type": "leaf",
             "state": {
@@ -205,7 +185,7 @@
             }
           },
           {
-            "id": "50b34b8ca0ecbff9",
+            "id": "aff46fd17d116cf8",
             "type": "leaf",
             "state": {
               "type": "review-queue-list-view",
@@ -215,7 +195,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
@@ -234,59 +214,58 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false,
       "obsidian-spaced-repetition:Review flashcards": false,
-      "obsidian-kanban:Create new board": false,
       "omnisearch:Omnisearch": false,
       "iconic:Open rulebook": false
     }
   },
-  "active": "f5a5e224a19bccab",
+  "active": "e59231966c1fdb9c",
   "lastOpenFiles": [
-    "Machine Learning/pics/grad_boost_alg.png",
-    "Machine Learning/pics/grad_boost.png",
-    "Machine Learning/pics/adaboost.png",
-    "Machine Learning/pics/boosting4.png",
-    "Machine Learning/pics/boosting3.png",
-    "Machine Learning/pics/boosting.png",
-    "Machine Learning/pics/boosting2.png",
-    "Machine Learning/Modelli di regressione.md",
-    "Machine Learning/Ensembling, errori e bagging.md",
-    "Machine Learning/Boosting.md",
-    "Machine Learning/pics/boosting1.png",
-    "DS/Paxos e Raft.md",
-    "DS/Semantiche comunicazione e Kafka.md",
-    "DS/Query flooding, random walk e gossiping.md",
-    "DS/DHT, CHORD e Kademlia.md",
-    "Machine Learning/Regressione logistica, cross-entropy, SGD e softmax.md",
-    "DS",
-    "AMW/Analisi statica e dinamica e strumenti.md",
-    "AMW/Snapshot QEMU.md",
-    "AMW/Compilazione di un file sorgente, registri e funzionamento stack.md",
-    "AMW/Reverse code engineering.md",
-    "AMW/Componenti calcolatore e indirizzi.md",
-    "www.virustotal.com.md",
-    "AMW/Esercitazione.md",
-    "AMW/Disassemblatori.md",
-    "Machine Learning/Random forests.md",
-    "Machine Learning/pics/bootstrap.png",
-    "Machine Learning/pics/tradeoff.png",
-    "Machine Learning/pics/decomp_final.png",
-    "Machine Learning/Definizione di machine learning, supervised learning e algoritmo nearest neighbour.md",
-    "Machine Learning/Decision trees.md",
-    "AMW/Integrativo - architettura di un calcolare.md",
+    "PMCSN/Introduzione ai modelli analitici.md",
+    "PMCSN/Teoria delle code.md",
+    "PMCSN/Ricapitolazioni utili di statistica e sistemi di code.md",
+    "PMCSN/imgs/ex5.png",
+    "PMCSN/imgs/ex4.png",
+    "PMCSN/imgs/ex3.png",
+    "PMCSN/imgs/ex2.png",
+    "PMCSN/imgs",
+    "PMCSN/Introduzione alla performance evaluation ed ai modelli.md",
+    "ISW2/Lezione 3 - object oriented metrics e function points.md",
+    "ISW2/Lezione 2 - bontà delle metriche e scale.md",
+    "ISW2/img/tab_1.png",
+    "ISW2/img/swm.png",
+    "ISW2/img",
+    "ISW2/Lezione 1 - Concetto di misura, metriche e misurazione.md",
+    "ISW2/Lezione 1 - testing.md",
+    "PMCSN",
     "AMW/Definizioni.md",
-    "Diassemblatori.md",
+    "ISW2",
+    "AMW/Integrativo - architettura di un calcolare.md",
+    "AMW/VM Windows su QEMU.md",
+    "Machine Learning/Risposta tecniche su NN.md",
+    "Machine Learning/8. PCA.md",
+    "AMW/Analisi statica e dinamica e strumenti.md",
+    "Machine Learning/5. Ensembling, errori, bagging e random forests.md",
+    "Machine Learning/6. Boosting.md",
+    "Machine Learning/Risposta regressione logistica.md",
+    "Machine Learning/Risposta naive bayes.md",
+    "Machine Learning/Risposta livelli convoluzionali contro livelli completamente connessi.md",
+    "Machine Learning/Risposta addestramento NN.md",
+    "Machine Learning/9. Naive Bayes Classifiers.md",
+    "Machine Learning/Risposta decision tree.md",
+    "Machine Learning/Risposta autoencoder.md",
+    "Machine Learning/3. Regressione logistica, cross-entropy, SGD e softmax.md",
+    "Machine Learning/pics/bw pass.png",
+    "Machine Learning/pics/fw pass.png",
+    "Machine Learning/Risposta universal approximation theorem.md",
+    "Machine Learning/Risposta bagging.md",
+    "Machine Learning/pics/nnsgd.png",
+    "Machine Learning/pics/bayes_inference.png",
+    "Pictures",
+    "DS",
     "AMW/immagini",
-    "Distributed Systems/Definizione e concetti chiave.md",
     "AMW",
     "Untitled.canvas",
-    "ASD/Parte 4 - Strutture dati/Hash map.md",
-    "Fondamenti di reti/Architettura ISO-OSI e TCP-IP e comunicazione logica.md",
     "Distributed Systems",
-    "Machine Learning/pics",
-    "Machine Learning/Nuova cartella",
-    "Machine Learning",
-    "ropics",
-    "Nuova cartella",
-    "Ricerca operativa"
+    "Machine Learning/pics"
   ]
 }

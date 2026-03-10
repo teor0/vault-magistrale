@@ -21,19 +21,20 @@
   "uncolorSelect": false,
   "uncolorQuick": false,
   "rememberDeletedItems": false,
+  "maxBackups": 5,
   "dialogState": {
     "iconMode": true,
     "emojiMode": false,
-    "rulePage": "file"
+    "rulePage": "folder"
   },
   "appIcons": {},
   "tabIcons": {},
   "fileIcons": {
-    "DS": {
+    "PMCSN": {
       "icon": "lucide-folder",
-      "color": "green",
+      "color": "purple",
       "unsynced": [
-        "21855c330441e0c1"
+        "1a474c94b73b6865"
       ]
     }
   },
@@ -113,6 +114,20 @@
       ],
       "enabled": true,
       "icon": "viewIcon"
+    },
+    {
+      "id": "eDCH9",
+      "name": "IS2 files",
+      "match": "all",
+      "conditions": [
+        {
+          "source": "path",
+          "operator": "contains",
+          "value": "ISW2"
+        }
+      ],
+      "enabled": true,
+      "icon": "lucide-file"
     }
   ],
   "folderRules": [
@@ -145,6 +160,21 @@
       "enabled": true,
       "icon": "lucide-folder",
       "color": "blue"
+    },
+    {
+      "id": "omguy",
+      "name": "ISW folder",
+      "match": "all",
+      "conditions": [
+        {
+          "source": "name",
+          "operator": "contains",
+          "value": "ISW2"
+        }
+      ],
+      "enabled": true,
+      "icon": "lucide-folder-code",
+      "color": "red"
     }
   ]
 }

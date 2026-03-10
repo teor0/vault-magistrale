@@ -1,0 +1,1 @@
+Per il progetto, è consigliato rivedere le linee guida viste a lezione.
