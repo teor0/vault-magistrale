@@ -1,0 +1,16 @@
+#pmcsn #magistrale 
+[[Legge di Little, notazione di Kendall e equazione di Khinchin Pollaczek (KP)]]
+# Distribuzione esponenziale
+Supponiamo di essere alla posta e che gli sportelli abbiano tempi di servizio distribuiti come esponenziali. Supponiamo che ci siano 2 sportelli e che siano occupati. La probabilità che si esca per ultimi è pari al 50%. Questo perché prima che io venga servito una delle due persone allo sportello deve andarsene e l'altra continua a stare allo sportello. Il confronto che si fa è tra il mio tempo di servizio totale ed il tempo di servizio rimanente di uno dei due clienti che rimane allo sportello. La probabilità è pari a 50% in quanto l'esponenziale è l'unica distribuzione caratterizzata dall'assenza di memoria. Il tempo di servizio rimanente del cliente rimanente allo sportello è distribuito in maniera identica al mio. Analiticamente partendo dalla funzione esponenziale $f(x)=\lambda e^{-\lambda x}$, andando per passi discreti quali: $f(1),f(2),\dots$ si nota come ad ogni passo $f(x)$ viene decrementata di un valore pari a $e^{-\lambda}$. Inoltre dallo studio dell'esponenziale, si apprende che circa il $63.21\%$ dei valori è sotto la media $\lambda$, in particolare $\displaystyle 1\over\lambda$ è detto costante temporale esponenziale, cioè il tempo in cui il valore iniziale si riduce del $63.21\%$.
+Analizzando i grafici delle distribuzioni, si nota come i valori di $E[N_S]$ e $E[N_Q]$ si differenziano di un $\rho$, dunque le spezzate non risultano perfettamente parallele mentre per i tempi di risposta medi le spezzate sono perfettamente parallele. ![[distr_graf.png]]
+
+# Distribuizione di Cox
+![[coxiana.png]]
+ogni stato è un'esponenziale di media $\displaystyle{1\over\mu_i}$ se $t_1,t_2\dots t_k$ sono i tempi spesi ad ogni stadio, il tempo totale speso $t$ è pari a $t=t_1\text{ con probabilità }b_1$ $t=t_1+t_2\text{ con probabilità }a_1b_2$ e cosi via, possiamo definire una distribuzione arbitraria, in due casi distinti:
+- $f(t)$ è una funzione qualsiasi del tempo la cui trasformata di Laplace, è una funzione razionale dunque la distribuzione $C_k(t)=f(t)$ dato $k$ assume lo stesso valore.
+- $g(t)$ è una funzione qualsiasi del tempo la cui trasformata di Laplace, è non una funzione razionale dunque la distribuzione $C_k(t)\sim g(t)$ cioè è asintoticamente equivalente a $g(t)$.
+
+## Esercizio utile
+In un sistema di processamento di transazioni, le transazioni arrivano con un tasso d'arrivo pari a $15\ tps$ e il server è in grado di servire le transazioni con un tasso di servizio pari a $58.37\ tps$. Cosa accade al tempo di risposta medio se il tasso d'arrivo aumenta del 10%? Anche se non abbiamo alcuna informazione sulle distribuzioni che caratterizzano il sistema, grazie alla KP possiamo dare una risposta al quesito! Riprendendo il risultato ottenuto su $T_Q$ ovvero $\displaystyle E[T_Q]={\rho\over 1-\rho}({C^2+1\over 2})E[S]$ con i valori forniti di $\lambda$ e $\mu$ possiamo calcolare il rapporto tra i tempi di risposta $E[T_Q]$, il tempo di risposta originale  e $E[T'_Q]$ il tempo di risposta dopo l'aumento del 10% di $\lambda$. Perciò $\displaystyle{E[T_Q]\over E[T'_Q]}=0.27={1\over 3.7}$ da cui otteniamo che $E[T'_Q]=3.7E[T_Q]$ più di 3 volte e mezzo più alto di prima!
+
+---
