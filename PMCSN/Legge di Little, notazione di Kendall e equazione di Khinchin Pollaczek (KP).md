@@ -7,7 +7,7 @@ Assunto che la coda segua la disciplina FIFO, la capacità del nodo servente sia
 - se nella scatola nera c'è il servente, la legge è applicata alla popolazione media del servente, ovvero l'utilizzazione: $\rho=\lambda E[S]=\displaystyle{\lambda\over\mu}$
 - se nella scatola nera c'è una rete di code, comunque siano interconnesse la legge si applica all'intera rete: $N=\lambda T$
 
-Da Little quindi possiamo ricavare due risultati molto utili su i tempi di risposta, ovvero $\displaystyle=E[T_S]={E[N_S]\over\lambda}$ e $\displaystyle=E[T_Q]={E[N_Q]\over\lambda}$
+Da Little quindi possiamo ricavare due risultati molto utili su i tempi di risposta, ovvero $\displaystyle=E[T_S]={E[N_S]\over\lambda}$ e $\displaystyle=E[T_Q]={E[N_Q]\over\lambda}$ ^4dbc71
 
 ---
 # Notazione di Kendall ed equazione di Khinchin Pollaczek
