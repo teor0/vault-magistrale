@@ -1,5 +1,5 @@
 #pmcsn #magistrale 
-[[Teoria delle code]]
+[[2 - Teoria delle code]]
 Come detto il modello di riferimento è quello dei sistemi di code. Consideriamo la coda singola con una capacità finita e dunque i job che non vengono accettati saranno persi. Attenzione la probabilità di loss è indice di connettività nei sistemi di comunicazione, dunque può tornare utile.
 
 Ci sono diversi parametri associati ad una coda quali:

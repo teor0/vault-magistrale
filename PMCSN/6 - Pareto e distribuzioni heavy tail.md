@@ -1,5 +1,5 @@
 #pmcsn #magistrale 
-[[Ripasso distribuzioni]]
+[[5 - Ripasso distribuzioni]]
 # Affidabilità come tempo residuo di vita
 Le distribuzioni in cui $P(X>s+t|X>s)$ decresce al crescere di $s$ sono dette increasing failure rate. In questo caso, il dispositivo ha sempre più probabilità di guastarsi col passare del tempo. Le distribuzioni in cui $P(X>s+t|X>s)$ cresce al crescere di $s$ sono dette <font color=red>decreasing failure rate</font>. In questo caso, il dispositivo ha sempre meno probabilità di guastarsi col passare del tempo. Un esempio di decreasing failure rate è quello delle CPU, che hanno una probabilità di guastarsi più alta all'inizio del loro ciclo di vita mentre con il passare del tempo la probabilità scenderà. 
 Sia $X$ una variabile aleatoria continua con funzione di densità di probabilità $f(t)$ e distribuzione $F(t)$, allora $r(t)$ definita come $\displaystyle r(t)={f(t)\over F(t)}$ dove $F(t)=1-F(t)=P(X>t)$. Consideriamo la probabilità che una lampadina dopo $t$ anni si guasti nei prossimi $dt$ secondi, allora: $P(X\in(t,t+dt)|X>t)=\displaystyle{f(t)dt\over F(t)}=r(t)dt$ è la probabilità di guasto istantanea. In particolare se $r(t)$ è costante, cioè $r(t)=\lambda$ allora $f(t)$ è un'esponenziale, questo perché vale la proprietà d'assenza di memoria!

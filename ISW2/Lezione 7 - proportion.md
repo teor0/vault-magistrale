@@ -19,6 +19,12 @@ l'opening version è sicuramente la prova più forte per la presenza della failu
 
 l'approccio con szz + affected version è la migliore combinazione.
 
+per motivi di tempo useremo l'approccio total ma è bene sapere quale usare e quando !
+tecnicamente ad ogni release dovrei fare il labeling dato che il labeling cambia con il tempo.
+
+le misurazioni sono si ripetibili ma il labeling no. una classe potrebbe risultare non buggy ma con un nuovo P potrebbe risultare buggy.
+appunto l'approccio total. praticamente se ho 7 release e si vuole predirre la release 8, calcolo P e la applico ovunque.
+
 l'approccio di proportion è piuttosto biased
 
 tutte le classi nascono non difettose. per avere una classe buggy necessito di una prova, ovvero un id di un ticket per un commit sulla classe.
@@ -72,3 +78,4 @@ risenti roc curve e threshold.
 training set realistico e test set accurato.
 
 date 10 release farò 10 volte l'etichettature.
+
