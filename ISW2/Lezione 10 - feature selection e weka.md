@@ -9,6 +9,8 @@ ricordiamo che desideriamo colonne indipendenti fra loro ma correlate fortemente
 
 rimuovere le feature risulta conveniente se la feature è irrilevante oppure è correlata ad altre.
 
+la feature selection va fatta sul validation set. al più su training e validation set, ma non il test set.
+
 ci sono due metodologie per effettuare feature selection: filter e wrapper. filter si basa su approcci statistici per valutare una feature indipendentemente dal modello in uso. 
 3° bookmark per infogain
 wrapper è molto pratico dato che si basa su un classificatore e la valutazione delle sue performance in base a diverse feature. ovviamente un approccio esaustivo non è praticabile per la feature selection. dunque anche se non si valuta tutto il dataset e perciò si ottiene un valore peggiore di accuracy, utilizziamo un approccio greedy per poter cercare il set di feature migliore.
@@ -35,3 +37,21 @@ vedi 4° bookmark
 i filtri per la feature selection stanno dentro meta. altrimenti si farebbe feature selection sul test set.
 
 feature selection va fatto prima del balancing dato che il balancing cambia il dataset.
+
+dalla feature selection mi aspetto che si abbassino tutti i risultati.
+
+24/04
+il filtro più semplice è attributeselectedclassifier. selezionando il filtro va selezionato al suo interno il classificatore. in genere naive bayes è accettabile.
+
+se devo utilizzare il balancing filteredclassifier e poi da lì nei filter selezionare nel path supervised/istance il balancing tra smote spread subsample per undersampling ecc. vedi slide balancing.
+
+sopra i bottoni start occorre selezionare nom class 
+
+wrappersubset e metodo greedy stepwise con AUC oppure F-value
+
+
+in classify tra le opzioni c'è output predictions 
+
+
+occhio al valore di precision e recall che si utilizzano nel produrre la tabella con i vari classificatori.
+

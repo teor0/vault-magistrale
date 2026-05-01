@@ -22,4 +22,4 @@ Per un sistema $M/M/m/m$ la situazione cambia: ![[mmmm_markov.png]] $\pi_0$ si o
 Isolando i termini $p(0)$ e $\pi_0$ tra i due termini, quello della Erlang-C è maggiore di quello della Erlang-B. Il sistema che ha maggior probabilità di diventare vuoto è ovviamente Erlang-B, perché non ha coda e quando un servente è libero la probabilità che arrivi un processo da servire è praticamente nulla, dato che è un evento simultaneo che dovrebbe accadere. Nei sistemi stazionari due eventi simultanei viene posta a zero, perché è molto rara. Accade in periodi limitati ma all'infinito è nulla.
 D'altra parte però tra $p(0)$ e $\pi_0$, $\pi_0>p(0)$ e dunque questi esempi potrebbero bilanciarsi. 
 
-Esercizio da vedere.
+---
