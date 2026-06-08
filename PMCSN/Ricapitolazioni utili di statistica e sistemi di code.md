@@ -1,4 +1,4 @@
-
+#pmcsn #magistrale 
 > [!info] Definizione tempo di risposta
 > Il tempo di risposta è il tempo che intercorre tra l'arrivo di una richiesta e il completamento del servizio, definito come $E[T]$.
 

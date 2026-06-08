@@ -23,6 +23,8 @@ Una coda si trova in <font color=red>equilibrio stocastico</font>, ovvero in reg
 > [!info] Definizione equilibrio flussi
 > Un sistema ha equilibrio dei flussi quando ha tassi d'ingresso e d'uscita ovvero i flussi in entrata ed uscita sono uguali.
 
+> Una coda a capacità finita è sempre stabile!
+
 > [!attention] Flusso d'uscita
 > Il flusso d'uscita è calcolato subito dopo che il job esce dal servente.
 
