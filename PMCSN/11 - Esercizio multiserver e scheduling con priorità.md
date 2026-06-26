@@ -25,7 +25,7 @@ In conclusione possiamo dire che ![[sb_prio_vs_abs_prio.png|300]] dato che il de
 Questo perché in $\displaystyle\sum^{h}_{i=1}\rho_i^{abs}$ $E[S_i]$ sono tutti pari a $E[S]$, mentre per $\displaystyle\sum^{h}_{i=1}\rho_i^{SB}$ abbiamo una serie decrescente $E[S_1]\le E[S_2]\le\dots \le E[S_r]$
 
 > [!important] Varianza ridotta
-> I tempi d'attesa miglio sono frutto dello scheduling size based, che riduce la variabilità! 
+> I tempi d'attesa migliori sono frutto dello scheduling size based, che riduce la variabilità! 
 
 Per quanto riguarda il tempo di servizio medio della classe $k$ non posso dire nulla su quale scheduling tra size based ed abstract sia il migliore. Per magari le prime classi la size based performa meglio ma mentre nelle ultime performa peggio dello scheduling abstract. 
 Per quanto riguarda però il tempo di risposta medio globale, essendo $E[S]$ invariante dal caso size base al caso abstract posso affermare che ![[ts_sb_vs_abs.png|300]] essendo $E[T_S]=E[T_Q]+E[S]$, ma essendo ![[sb_prio_vs_abs_prio.png|300]] la disuguaglianza rimane valida.

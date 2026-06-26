@@ -24,7 +24,13 @@ Vediamo come etichettare in modo euristico una classe come buggy o no cosa molto
 L'idea di SZZ, è definire come sorgente o causa del difetto, la stessa zona impattata dalla correzione del difetto. Dunque tutti gli elementi toccati da un commit del fix, prima del commit erano difettosi. Possiamo definire quindi SZZ come, un processo per identificare quando si è verificato un difetto effettivamente introdotto in un progetto software, sfruttando l'annotazione del sistema di source control. Utilizzare git blame per identificare il commit che ha inserito il difetto è ragionevole ma non è preciso. E vedremo in futuro come essere più precisi tramite proportion.
 
 ![[szz.png]]
-Come si nota dalla figura, l'obiettivo di SZZ è determinare, per il codice sorgente che è stato modificato per correggere un difetto, quando è avvenuta l'ultima volta una modifica prima di tale correzione, che non è lo stesso momento in cui il difetto è stato rilevato e comunicato tramite un ticket di Jira. Per questo motivo è anche importante fare una distinzione tra revisione e release. Intendiamo revisione qualsiasi stato conseguente un commit, mentre la release è una revisione che è andata in produzione. SZZ come già anticipato non è una tecnica molto precisa ed ha diversi limiti quali: 
+Come si nota dalla figura, l'obiettivo di SZZ è determinare, per il codice sorgente che è stato modificato per correggere un difetto, quando è avvenuta l'ultima volta una modifica prima di tale correzione, che non è lo stesso momento in cui il difetto è stato rilevato e comunicato tramite un ticket di Jira. Per questo motivo è anche importante fare una distinzione tra revisione e release. 
+
+
+> [!important] Revisione e release
+> Intendiamo revisione qualsiasi stato conseguente un commit, mentre la release è una revisione che è andata in produzione. 
+
+SZZ come già anticipato non è una tecnica molto precisa ed ha diversi limiti quali: 
 - bug regressivi 
 - imprecisione nella ricerca all'indietro: stabiliamo se una classe è difettosa ma siamo imprecisi sul stabilire da quando.
 - refactoring
@@ -34,7 +40,7 @@ Come si nota dalla figura, l'obiettivo di SZZ è determinare, per il codice sorg
 > [!important] Nota bene
 > Tutto il ragionamento vale anche a livello di metodi o linea di codice e attenzione, noi misuriamo quando la classe è difettosa e non quando il difetto è stato inserito.
 
-> [!info] Title
+> [!info] Infor
 > Per avere un'idea del release id basta confrontare le date dei commit su jira con due release diverse, dove tutti i commit che vengono dopo la release 1.1 e prima release 1.2 appartengono allo stesso insieme di revisioni.
 
 Ricorda una classe è non difettosa (buggy) fino a prova contraria. Più piccolo è il cambiamento più l'eventuale bug è facile da risolvere. Ma se faccio migliaia di commit, lo stato del codice risulta piuttosto inconsistente. Dunque l'approccio un commit per ticket è ragionevole. Nel caso di ticket grandi invece potrei scomporli.

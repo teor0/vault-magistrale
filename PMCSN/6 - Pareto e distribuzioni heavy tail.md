@@ -19,7 +19,7 @@ Il numero di operazioni di una classe di job $Z$ è una variabile aleatoria ment
 Come soluzione utilizziamo la Pareto troncata/bounded in cui tutti i momenti sono finiti. La distribuzione in questo caso è data da: $\displaystyle f(x)=\alpha x^{-\alpha-1}{k^\alpha\over 1-({k\over p})^\alpha}$ con $k\le x\le p$, $0<\alpha<2$ e $C^2=\displaystyle{Var[x]\over E[x]^2}$ è compreso tra 25 e 49! Per calcolare $k$ possiamo partire dall'equazione $\displaystyle E[S]={\alpha k\over\alpha-1}\implies k=\displaystyle{\alpha-1\over\alpha}E[S]$. In conclusione possiamo elencare le proprietà della Pareto:
 1. è decreasing failure rate
 2. ha varianza infinita per $\alpha>2$ nella versione non limitata.
-3. Una minuscola frazione the job più grandi comprende metà del carico del sistema. Infatti la Pareto nasce in ambito sociologo, dove l'1% della popolazione ha metà della ricchezza globale :) Mentre nell'informatica per $\alpha=1.1$ l'1% dei job occupa metà del carico del sistema.
+3. Una minuscola frazione di job più grandi comprende metà del carico del sistema. Infatti la Pareto nasce in ambito sociologo, dove l'1% della popolazione ha metà della ricchezza globale :) Mentre nell'informatica per $\alpha=1.1$ l'1% dei job occupa metà del carico del sistema.
    
 Tornando alla migrazione dei job nei sistemi distribuiti, adesso capiamo che anche se un job "vecchio" possa richiedere un alto costo di migrazione, in quanto ha accumulato un sacco di memoria, se è davvero "vecchio" allora data la proprietà delle decreasing failure rate, ha un'altra probabilità di dover utilizzare molta CPU nel futuro, il che significa che il costo di migrazione può essere ammortizzato su un lifetime molto lungo.
 

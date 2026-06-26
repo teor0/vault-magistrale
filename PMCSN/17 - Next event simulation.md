@@ -54,5 +54,5 @@ Un modello di simulazione next-event consiste nei seguenti quattro step:
 La simulazione next-event viene inizializzata una volta sola all'inizio di una replica della simulazione, per poi alternare i passi 2 e 3 fino al raggiungimento della condizione terminale.
 
 Poiché gli istanti di tempo degli eventi sono in genere casuali, il clock della simulazione funziona in modo asincrono. Inoltre, dato che i cambiamenti di stato si verificano solo in occasione di eventi, periodi di inattività del sistema vengono ignorati facendo avanzare il clock in ogni istante in cui avviene un evento.
-T
+
 ---

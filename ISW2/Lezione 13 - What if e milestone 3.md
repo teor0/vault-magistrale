@@ -7,6 +7,8 @@ feature actionable: è una feature che può essere considerata in modo isolato e
 
 feature non actionable: linee di codice
 
+calcola la correlazione tra code smell e bugginess slide 10 what if
+
 gli smell dovrebbero essere calcolati all'inizio della release. per la release 1 gli smell non impattano dato che non c'erano prima. (unico caso)
 
 si consiglia di calcolare gli smell, al ultimo commit della precedente release.

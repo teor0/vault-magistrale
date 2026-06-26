@@ -1,6 +1,6 @@
 #pmcsn #magistrale 
 # Performance evaluation e definizione di modello
-Tratteremo da modellazione, simulazione e analisi di sistemi. Il sistema di riferimento è quello delle rete di code, sia solo singola che multipla. Perché analizzare le prestazioni delle reti di code? Perché sempre più spesso i sistemi distribuiti vanno down per picchi di richieste. Un buon modello di valutazione delle prestazioni fornisce una profonde comprensione del comportamento del sistema, ovvero perché il sistema si comporta come si comporta, cosa limita il comportamento del sistema e quali problemi devono essere risolti per poter migliorare il sistema.
+Tratteremo la modellazione, simulazione e analisi di sistemi. Il sistema di riferimento è quello delle rete di code, sia solo singola che multipla. Perché analizzare le prestazioni delle reti di code? Perché sempre più spesso i sistemi distribuiti vanno down per picchi di richieste. Un buon modello di valutazione delle prestazioni fornisce una profonda comprensione del comportamento del sistema, ovvero perché il sistema si comporta come si comporta, cosa limita il comportamento del sistema e quali problemi devono essere risolti per poter migliorare il sistema.
 
 Elenchiamo alcuni degli obiettivi della performance evaluation:
 - Capacity planning: determinare il numero e la dimensione delle componenti del sistema.
