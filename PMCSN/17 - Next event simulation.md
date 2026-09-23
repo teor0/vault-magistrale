@@ -56,3 +56,16 @@ La simulazione next-event viene inizializzata una volta sola all'inizio di una r
 Poiché gli istanti di tempo degli eventi sono in genere casuali, il clock della simulazione funziona in modo asincrono. Inoltre, dato che i cambiamenti di stato si verificano solo in occasione di eventi, periodi di inattività del sistema vengono ignorati facendo avanzare il clock in ogni istante in cui avviene un evento.
 
 ---
+# Coda a servente singolo
+La variabile di stato $l(t)$ fornisce una caratterizzazione completa dello stato di una coda a servente singolo in cui $l(t)=0 \impliedby \implies q(t)=0\ and\ x(t)=0$ 
+$l(t)>0 \impliedby \implies q(t)=l(t)-1\ and\ x(t)=1$
+
+dove $l(t), q(t),\text{e } x(t)$ rappresentano il numero di job del centro, nella coda, ed in servizio rispettivamente al tempo $t > 0$. A parole se il numero di job in servizio è conosciuto, allora il numero di job in coda e lo stato, idle o busy, del server è anche noto. Dato che lo stato del sistema è caratterizzato da $l(t)$, quali eventi causano il cambiamento di $l(t)$? Tali eventi sono due: 
+- un arrivo in cui $l(t)$ viene incrementato di 1.  
+- il completamento di un servizio fa decrementare $l(t)$ di 1.
+  
+In conclusione, il modello concettuale del sistema consiste nella variabile di stato $l(t)$ e due tipi di evento associati, arrivi e completamento del servizio. Lo stato iniziale può avere valori interi non negativi, ma solitamente si utilizza $l(t)=0$ per rappresentare il sistema come vuoto e come primo evento un arrivo. Anche lo stato terminale può avere valori interi non negativi, ma è comune utilizzare lo stato di vuoto e quiete come stato terminale. Invece di specificare il numero di job processati, andremo ad utilizzare come criterio di terminazione l'istante di tempo $\tau$ dopo cui nessun nuovo arrivo avverrà. Ciò permette di concludere i job ancora nel sistema ma anche di non avere più arrivi, cosi facendo l'ultimo evento sarà un completamento di servizio. Occorre infine un meccanismo per denotare un evento come impossibile. Un modo è strutturare la lista di eventi in modo che possa contenere solo eventi possibili, soprattutto se il numero di tipi di evento è grande. Come alternativa, se il numero di tipi è basso, la lista può contenere si eventi possibili che impossibili, che vengono denotati con un tempo pari a $\infty$. Di seguito lo pseudocodice di una coda FIFO con next event simulation: ![[pseudo_next_event.png]]. Il programma risultante `ssq3.c` in questo caso a differenza di `ssq2.c`, non produrrà più statistiche job-averaged, ma statistiche time-averaged. In particolare, le statistiche vengono calcolate accumulando gli integrali di $l(s),q(s)\ e\ x(s)$ nel tempo, operazione valida dato che sono tutte e tre funzioni piecewise che cambiano valore al occorrere di un evento. 
+
+Dato che `ssq2` e `ssq3` simulano esattamente lo stesso sistema, i programmi dovrebbero produrre anche le stesse statistiche. Produrle però richiede che entrambi i programmi processino esattamente la stessa fonte stocastica di job in arrivo e richieste di servizio. In particolare in `ssq2`, le variate vengono generate in ordine alterno, mentre in `ssq3` l'ordine non è noto a priori. Per produrre le stesse statistiche andiamo ad utilizzare in `ssq3`, la libreria `rngs`.
+
+---
