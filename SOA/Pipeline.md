@@ -1,4 +1,6 @@
-
+#soa
+[[Hardware insight]]
+# Processore pipeline
 Prendiamo ad esempio l'istruzione: `add %rax, 16(%rbx, %rcx, 8)` in memoria, è codificata con i byte 48 01 44 cb 10. Questi byte devono essere prelevati dalla memoria e portati in un registro interno del processore; quindi devono essere decodificati per capire che si tratta di una operazione di somma con due operandi. Ora, possiamo immaginare che la rete logica che esegue la somma l'ALU sia completamente distinta dalla rete logica che decodifica l’istruzione; quindi, per tutto il tempo in cui la CPU sta calcolando la somma, la rete di decodifica resta inutilizzata. L’idea è di usarla per iniziare a decodificare la prossima istruzione, mentre l’istruzione precedente non è stata ancora completata. Più in generale, ci saranno altre reti logiche specializzate per compiti particolari, come accedere alla memoria o ai registri. Mentre una istruzione sta attraversando una certa fase del suo tragitto all’interno della CPU, sta occupando una sola particolare rete logica, mentre le altre sono al momento inutilizzate, e potrebbero essere utilizzate per svolgere il loro compito su altre istruzioni. Questa è l'idea dietro il processore pipeline, si tratta dunque di una tecnologia basata sullo scheduling ed il parallelismo a livello hardware ovvero ILP. Ciò che è sequenziato nel programma non è necessariamente eseguito nello stesso ordine di sequenza all'interno del hardware, tuttavia la causalità deve rimanere consistente. Un'istruzione viene suddivisa in stadi quali:
 - IF: instruction fetch, ovvero prelievo dell'istruzione
 - ID: instruction decode, decodifica dell'istruzione
@@ -18,4 +20,9 @@ In una pipeline si può utilizzare:
 - hardware supported hazards: azzardo sul dover effettuare un jump o meno attraverso la predizione del branch su cui il programma andrà.
 
 Le pipeline super scalari non vanno mai ad eseguire realmente delle attività su risorse esposte a livello ISA, vanno ad eseguire le attività su risorse che sono una rappresentazione speculativa, del contenuto del registro che verrà poi esposto. Ma come?
-In x86_64, i registri general porpouse non contengono solo un dato o istruzione, questo perché i registri sono array in cui solo un'istanza contiene il valore committed del flusso di esecuzione, le altre mantengono valori speculativi. Questo meccanismo prende il nome di <font color=red>register renaiming</font>. Prendiamo ad esempio la sequenza di istruzioni ABC in cui A produce un valore in RBX e C deve leggere da RBX, allora C leggerà il valore scritto da A non il valore committed. Attenzione osservando i valori speculativi si può ricostruire lo stato del hardware per effettuare degli attacchi come vedremo in futuro.
+In x86_64, i registri general porpouse non contengono solo un dato o istruzione, questo perché i registri sono array in cui solo un'istanza contiene il valore committed del flusso di esecuzione, le altre mantengono valori speculativi. Questo meccanismo prende il nome di <font color=red>register renaiming</font>. Prendiamo ad esempio la sequenza di istruzioni ABC in cui A produce un valore in RBX e C deve leggere da RBX, allora C leggerà il valore scritto da A non il valore committed. Attenzione osservando i valori speculativi si può ricostruire lo stato del hardware per effettuare degli attacchi come vedremo in futuro. 
+
+> [!info] N.B.
+> Ricorda che l'esecuzione speculativa è sia per pipeline tradizionali che super scalari.
+
+---
