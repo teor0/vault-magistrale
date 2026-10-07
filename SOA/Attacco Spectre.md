@@ -1,4 +1,6 @@
-
+[[Branch prediction]]
+#soa #magistrale 
+# Descrizione e funzionamento Spectre
 Spectre-V1 sfrutta jmp condizionali per accedere dati del probe array. In particolare:
 1. Si utilizza un if più volte con valori che soddisfano la condizione per addestrare il branch predictor a considerare tale if vero e quindi speculare.
 2. Durante l’esecuzione speculativa, un indice `X` che dovrebbe essere rifiutato dal controllo viene usato per leggere `B[X]` oltre i limiti del array B, quindi alla seconda pagina di memoria. Il valore ottenuto seleziona una posizione in `A`, che lascerà nella cache un footprint.
