@@ -37,4 +37,11 @@ retpoline_target:
 	//since FLAGS should not be modified
 	ret //this will hit target_address
 ```
-in questo codice l'unica istruzione speculativa è la return del retpoline. Il jump indietro permette di non avere attività di footprint in memoria.
+in questo codice l'unica istruzione speculativa è la return del retpoline. Il jump indietro permette di non avere attività di footprint in memoria. I processori moderni offrono anche un supporto basato su hardware per evitare che il predittore del branch indiretto sia influenzato dalla cronologia delle precedenti esecuzioni del software. Su x86 abbiamo due supporti principali:
+1. IBRS (Indirect Branch Restricted Speculation) – un MSR (Model Specific Register) può essere aggiornato per creare un'enclave di esecuzione in cui il la storia non è influenzata da cose che sono al di fuori di questa enclave – utile quando cambiando la modalità di protezione del processore. Permette quindi di operare in modalità privilegiata o non privilegiata il branch predictor.
+2. IBPB (Indirect Branch Prediction Barrier): una MSR può essere aggiornata per farlo escludere l'effetto della previsione del branch indiretto in qualsiasi punto della sequenza temporale. In questo caso si flusha il predittore.
+
+Poi abbiamo isolamento hardware per thread: STIBP (Single Thread Indirect Branch Predictors): un MSR (Model Specific Register) che può essere aggiornato per rendere il predittore di branch per branch indiretti indicizzati in base agli accessi alla CPU (disponibile quindi per ogni hyperthread). L'impostazione delle cose per un indice CPU non viene utilizzata per le previsioni eseguite per conto di un altro indice della CPU. Porta ad un compromesso tra utilizzo delle risorse e prestazioni. Infine come contromisure per i branch condizionali si ha la <font color=red>sanitizzazione</font>: in sostanza si va a ridurre il range di valori non ammissibili rispetto al normale.
+![[sanitization.png]]
+
+---

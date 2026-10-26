@@ -30,4 +30,7 @@ qui abbiamo che l'ultimo salto è funzione delle due condizioni precedenti quind
 
 ![[predittori_correlati.png|400]]
 
+## Tournament predictor e predizione di return
+La previsione di un branch viene effettuata utilizzando un predittore locale (per branch) o un predittore correlato (per cronologia). Nella sostanza abbiamo una combinazione delle due diverse previsioni schemi. Quale dei due deve essere sfruttato in ogni singola previsione è codificato in una storia di successi/fallimenti a 4 stati (basata su 2 bit). In questo modo possiamo rilevare se trattare un branch come un individuo che porta a una migliore efficacia rispetto al trattamento come un elemento in una sequenza di individui. Per quanto riguarda al predizione di jump di return, ciò avviene tramite il Return Stack Buffer (RSB), che è semplicemente un stack layout cache di indirizzi relativi al punto di ritorno delle istruzioni di chiamata. Non è così grande in termini di entries (tipicamente abbiamo l'ordine di poche decine), in ogni caso potremmo comunque riscontrare un errore o potremmo (improbabile) incorrere in una previsione errata quando gli indirizzi di ritorno nell'area dello stack vengono modificati dal software. RSB non è condiviso tra hyperthread ovviamente. Infine per quanto riguarda i salti indiretti abbiamo una cache simile alla BTB con indirizzo del branch, target e bit di predizione.
+
 ---
