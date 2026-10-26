@@ -24,7 +24,7 @@ Se il moltiplicatore e il modulo sono scelti correttamente, il generatore di Leh
 > [!important] Teorema
 > Se la sequenza $x_0, x_1, x_2,\dots$, è prodotta da un generatore Lehmer con moltiplicatore $a$ e modulo $m$, allora $x_i=a^ix_0\ mod\ m$ con $i=0,1,2,\dots$
 
-NOTA: è assolutamente una pessima idea calcolare $x_i$ calcolando prima $a_i$.
+NOTA: è assolutamente una pessima idea calcolare $x_i$ calcolando prima $a^i$.
 
 > [!important] Teorema
 > Se $x_0\in X_m$  e la sequenza $x_0, x_1, x_2,\dots$ è prodotta da un Lehmer generatore con moltiplicatore $a$ e modulo $m$, allora c'è un intero positivo $p$, $0<p\le m-1$, tale che $x_0, x_1, x_2,\dots, x_{p-1}$ sono tutti diversi e $x_{i+p}=x_i$ con $i=1,2,\dots$ la sequenza è periodica con periodo $p$. In aggiunta $(m-1)\ mod\ p=0$.
